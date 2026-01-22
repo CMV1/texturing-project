@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'Garamond';
+  src: url('../assets/font/EB_Garamond/EBGaramond-VariableFont_wght.ttf');
+
+}
+
+
+body {
+  background-color: #07142c;
+  background-position: left;
+  font-size: 18px;
+  margin: 0;
+}
+.aspect-ratio {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/assets/noise.png');
+}
+.position {
+  position: fixed;
+  inset: 50%;
+  transform: translate(-50%, -50%);
+}
+.box {
+  width: clamp(220px, 25vw, 500px);
+  aspect-ratio: 9 / 16;
+  background-color: rgba(255, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+
+.cow img {
+  max-width: 100%;
+  height: auto;
+  /* border: 1px ridge white; */
+  border-bottom: 3px solid white;
+  border-image: linear-gradient(to right, #ffffff 80%, transparent 80%) 100% 1;
+}
+.type1-text{
+  font-family:Garamond;
+  color:white;
+  text-align: justify;
+  width: 80%;
+  position: absolute;
+  
+}
+.type2-text{
+  font-family:Garamond;
+  color:white;
+  transform: scaleY(0.6);
+  transform: translateY(-20px,-15px,-30px);
+  text-align: justify;
+  width: 80%;
+}
+
+
+
+.hero {
+  font-weight: 1000;
+  font-size: clamp(2rem, 10vw, 8rem);
+  letter-spacing: -0.12em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  writing-mode: sideways-lr;
+
+}
+
+
+a{
+  text-decoration: transparent;
+  color:white;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+}
+
+  /* under the red box text */
+  .underbox{
+   margin-top: 0rem;
+   width: 40px;
+
+  }
+
+  .box-wrapper {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+            .dropdown button{
+              position: relative;
+            }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f900;
+              min-width: auto;
+          
+              padding: 12px 16px;
+        
+              
+            }
+
+           .dropdown:enabled .dropdown-content {
+              display: block;
+               writing-mode:horizontal-tb;
+              box-shadow: -10px 0px 7px -5px rgb(255, 0, 0);
+            }
+
+  /* use for art design later*/
+/* .conic-grain{
+  width: 100vh;
+  height: 50vh;
+     filter: contrast(240%) brightness(100%);
+  background: 
+	radial-gradient(ellipse at 50% 50%, rgb(0, 0, 0), rgba(0, 0, 0, 0.288)),
+	url(assets/noise2.svg);
+
+} */
+
+/* author page part*/
+
+.aspect-ratio2 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('assets/bg2.png');
+ 
+}
+
+.eyes img{
+  max-width: 100%;
+  height: auto;
+}
+
+.box-author {
+  width: clamp(220px, 25vw, 500px);
+  background-color: rgba(255, 0, 0, 0.2);
+  display:block;
+  justify-content: center;
+  
+}
+.hero-author {
+  font-weight: 1000;
+  font-size: clamp(4rem, 10vw, 8rem);
+  letter-spacing: -0.12em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  line-height: .9;
+  margin-left:-2%;
+}
+
+.box-right {
+  aspect-ratio: 9/16;
+  width: clamp(141px, 19vh,400px);
+  background-color: rgba(0, 0, 0, 0.308);
+  
+}
+

@@ -166,3 +166,6 @@ a:hover {
   
 }
 
+.no-imageselect{
+  user-select: none;
+}

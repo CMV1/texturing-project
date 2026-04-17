@@ -161,7 +161,7 @@ a:hover {
 
 .box-right {
   aspect-ratio: 9/16;
-  width: clamp(141px, 19vh,400px);
+  width: clamp(240px, 19vh,400px);
   background-color: rgba(0, 0, 0, 0.308);
   
 }

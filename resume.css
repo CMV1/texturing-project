@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Garamond';
-  src: url('../assets/font/EB_Garamond/EBGaramond-VariableFont_wght.ttf');
+  src: url('assets/font/EB_Garamond/EBGaramond-VariableFont_wght.ttf');
   
 }
 @font-face {
   font-family: 'Libre';
-    src: url('../assets/font/Libre_Bodoni/LibreBodoni-VariableFont_wght.ttf');
+    src: url('assets/font/Libre_Bodoni/LibreBodoni-VariableFont_wght.ttf');
     
   }
   @font-face {
     font-family: 'Instrument';
-    src: url('../assets/font/instrument_sarif/InstrumentSerif-Regular.ttf');
+    src: url('assets/font/instrument_sarif/InstrumentSerif-Regular.ttf');
     
   }
       .font1 {
